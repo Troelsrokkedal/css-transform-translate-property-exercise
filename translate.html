@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Transition</title>
+<style type="text/css">
+
+img {
+	width: 300px;
+	display: block;
+	margin: auto;
+	margin-top: 200px;
+	transition: transform 3s linear;
+
+}
+
+img:hover{
+	/*transform: translateX(-200px); kører opad til højre*/
+	/*transform: translateX(200px); kører opad til venste*/
+	/*transform: translateY(300px); kører nedad til venste*/
+	/*transform: translateY(-300px);kører nedad til højre*/
+	/*transform: translate(-600px, -200px); kører skråt til venste*/
+	/*transform: translate(600px, -200px);*/
+	/*transform: translate(600px, 200px);*/
+	transform: translate(-600px, 200px);
+
+}
+
+</style>
+</head>
+
+<body>
+
+	<img src="img/cat.jpg" alt="">
+
+</body>
+</html>
+
